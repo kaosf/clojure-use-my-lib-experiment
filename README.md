@@ -2,31 +2,33 @@
 
 An experiment to use [clojure-library-experiment](https://github.com/kaosf/clojure-library-experiment)
 
-## Installation
+## Installation and Usage
 
-Download from http://example.com/FIXME.
+### Installation (Download)
 
-## Usage
+Download [clojure-library-experiment](https://github.com/kaosf/clojure-library-experiment) and execute following commands.
 
-FIXME: explanation
+```sh
+git clone https://github.com/kaosf/clojure-library-experiment
+cd clojure-library-experiment
+lein install
+```
 
-    $ java -jar clojure-use-my-lib-experiment-0.1.0-standalone.jar [args]
+### Usage
 
-## Options
+Download this repository and then launch REPL to try it.
 
-FIXME: listing of options this app accepts.
+```sh
+git clone https://github.com/kaosf/clojure-use-my-lib-experiment
+cd clojure-use-my-lib-experiment
+lein repl
+```
 
-## Examples
+```clj
+(require 'clojure-library-experiment.core)
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+(clojure-library-experiment.core/f 1) ;-> 2
+```
 
 ## License
 
