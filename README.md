@@ -28,6 +28,14 @@ lein repl
 (require 'clojure-library-experiment.core)
 
 (clojure-library-experiment.core/f 1) ;-> 2
+(clojure-library-experiment.core/g 2) ;-> 4
+```
+
+```clj
+(require [clojure-library-experiment.core :refer :all])
+
+(f 1) ;-> 2
+(g 2) ;-> 4
 ```
 
 ## License
