@@ -14,6 +14,8 @@ cd clojure-library-experiment
 lein install
 ```
 
+It will be installed in `~/.m2`.
+
 ### Usage
 
 Download this repository and then launch REPL to try it.
