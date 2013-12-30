@@ -1,6 +1,6 @@
 # clojure-use-my-lib-experiment
 
-FIXME: description
+An experiment to use [clojure-library-experiment](https://github.com/kaosf/clojure-library-experiment)
 
 ## Installation
 
